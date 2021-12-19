@@ -18,18 +18,19 @@ const SubSection = styled.div`
   gap: 20px;
 `
 const H1 = styled.h1`
-  font-family: "Space Mono", sans-serif;
-  font-size: 80px;
+  font-family: "Alfa Slab One", cursive;
+  font-size: 65px;
   font-weight: 700;
   line-height: 1;
+  letter-spacing: 2px;
   @media (max-width: ${constants.breakpoints.lg}) {
     font-size: 50px;
   }
 `
 const H2 = styled.h2`
-  font-family: "Space Mono", sans-serif;
-  font-size: 22px;
-  font-weight: 700;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 35px;
+  font-weight: 600;
   line-height: 1;
   padding-top: 40px;
   padding-bottom: 40px;
@@ -39,7 +40,8 @@ const H2 = styled.h2`
 `
 
 const P = styled.p`
-  font-family: "Space Mono";
+  font-family: "Fira Sans";
+  font-size: 25px;
   line-height: 2;
   padding-top: 20px;
   @media (max-width: ${constants.breakpoints.lg}) {
@@ -71,22 +73,27 @@ const Main = (): JSX.Element => {
   return (
     <Wrapper>
       <MainSection>
-        <H1> Hi, I am Ahmad Kaouk_</H1>
+        <H1> Hi, I am Ahmad Kaouk</H1>
         <H2>Senior Software Engineer. Blockchain Enthusiastic.</H2>
         <P>
-          I am Senior Software Engineer, originally from lebanon and currently
-          living in Paris, France. I am passionate about programming and
-          Blockchain.
+          Hi there,
+          I am Senior Software Engineer with 5 years of relevant experience in creating software. I am based in Paris, France. Currenlty, I am working at Sesame IT. I have a keen interest with Blockchain, Cryptography and Finance. I am also interested in modern programming languages, espacially Rust and Go.
         </P>
         <P>
-          I have been creating and building software since 5 years or so. I
-          worked mainly with C++, C and python. These days, I’m hooked with
-          Rust.
+          Now, I am spending my time on:
+          <ul>
+            <li>Focusing on Idiomatic Rust.</li>
+            <li>Diving into the blockchain/crypto world.</li>
+          </ul>
         </P>
         <P>
-          In my free time, I enjoy reading about the blockchain technology and
-          cryptocurrency markets, learning and coding with Rust, exercising or
-          even relaxing and playing video games.
+          Interests:
+          <ul>
+            <li>Blockchain technologies (Substrate)</li>
+            <li>Peer to Peer Networking (libp2p)</li>
+            <li>Smart Contracts and Solidity</li>
+            <li>Cryptograhphy</li>
+          </ul>
         </P>
       </MainSection>
 

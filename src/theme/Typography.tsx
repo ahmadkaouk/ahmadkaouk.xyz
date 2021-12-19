@@ -63,7 +63,7 @@ const MobileBody = css`
 `
 
 const MobileCaption = css`
-  font-family: "Space Mono", sans-serif;
+  font-family: "Fira Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -145,7 +145,7 @@ const DesktopBody = css`
 `
 
 const DesktopCaption = css`
-  font-family: "Space Mono", sans-serif;
+  font-family: "Fira", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -282,7 +282,7 @@ const Typography = (): JSX.Element => (
   <>
     <Helmet>
       <link
-        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"
         rel="stylesheet"
       />
     </Helmet>
